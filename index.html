@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <p>2. Create a form with basic validation (name, email, phone number, password, age, gender, date, color picker)</p>  
+  <h1>MY FORM</h1>
+  <form  id="myForm" onsubmit="return validateForm()">
+
+    <label for="Name">User Name</label>
+    <input type="text" name="user_name" id="name">
+    <br> <br>
+    <label for="email"> Enter the Email Id-</label>
+    <input type="email" name="email" id="email">
+    <br>  <br>   
+    <label for="phone-number">Enter the Phone Number</label>
+    <input type="number" name="number" id="number">
+    <br> <br>
+    <label for="date">Enter the Date</label>
+   
+    <input type="date" name="date" id="date">
+    <br> <br>
+    
+    
+    <label for="password">Enter the password</label>
+    
+    <input type="password" name="password" id="password">
+    <br><br>
+   
+    <label for="Age">Enter the Age</label>
+    <input type="Age" name="Age" id="Age">
+    <br><br>
+    <label for="Gender">Gender</label>
+    <input type="radio" id="Male" value="Male">
+    <br><br>
+
+    <label for="Male">Male</label>
+    <input type="radio" id="female" value="female">
+    <label for="Female">Female</label>
+    <br>
+    <br>
+
+    <label for="favcolor">Select your favorite color:</label>
+  <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+  <br><br>
+
+  <input type="submit" value="Submit">
+
+
+  </form>
+  <script src="./script.js"></script>
+    
+</body>
+</html>
